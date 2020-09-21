@@ -38,7 +38,7 @@ try:
         print("NOTICE: CLOSING THE TURTLE WINDOW WILL RAISE AN EXCEPTION") # notice
         debugAns = input("Option:") 
         if debugAns == "exc": # if the user enters "exc" then...
-            raise Exception # throw an exception
+            raise Exception # THROW EXCEPTION
         elif debugAns == "turtle": # if the user enters "turtle" then...
             PLCHLDR = ""
             turtle.speed(10) # begin the turtle... mess
@@ -71,4 +71,4 @@ except Exception: # this catches any exceptions thrown
     traceback.print_exc() # print the exception
     input("Press enter to continue.")
 print("-END-")
-input("Press enter to terminate.")
+input("Press enter to terminate python job.")
