@@ -41,7 +41,7 @@ try:
             raise Exception # throw an exception
         elif debugAns == "turtle": # if the user enters "turtle" then...
             PLCHLDR = ""
-            turtle.speed(10) # begin the turtle mess
+            turtle.speed(10) # begin the turtle... mess
             for PLCHLDR in range(20):
                 turtle.forward(50)
                 turtle.left(100)
@@ -60,12 +60,12 @@ try:
                 turtle.forward(50)
                 turtle.left(100)
 
-            turtle.penup()
-            turtle.right(150)
-            turtle.pendown()
-            for PLCHLDR in range(20):
-                turtle.forward(50)
-                turtle.left(100)
+            turtle.penup() # AAAAAAAAAAAAAAAAAAAAAAA
+            turtle.right(150) # AAAAAAAAAAAAAAAAAAAAAAA
+            turtle.pendown() # AAAAAAAAAAAAAAAAAAAAAAA
+            for PLCHLDR in range(20): # AAAAAAAAAAAAAAAAAAAAAAA
+                turtle.forward(50) # AAAAAAAAAAAAAAAAAAAAAAA
+                turtle.left(100) # AAAAAAAAAAAAAAAAAAAAAAA
 except Exception: # this catches any exceptions thrown
     input("oops, an exception occured :/ press enter for debug info.") # friendly exception notice
     traceback.print_exc() # print the exception
