@@ -35,6 +35,16 @@ try:
         else:
             print("Incorrect, the answer is 5.56.")
             input("Press enter to continue:")
+        os.system('cls')
+        print("Question 3/5")
+        print("4.25 + 2.82")
+        q3 = input("Answer:")
+        if q3 == "7.07":
+            print("Correct, the answer is " + q3 + ".")
+            input("Press enter to continue:")
+        else:
+            print("Incorrect, the answer is 7.07.")
+            input("Press enter to continue:")
     elif menu == "debug": # elif the user enters "debug", then...
         os.system('cls') # clear onscreen text
         print("DEBUG OK") # begin debug
@@ -45,30 +55,29 @@ try:
         if debugAns == "exc": # if the user enters "exc" then...
             raise Exception # THROW EXCEPTION
         elif debugAns == "turtle": # if the user enters "turtle" then...
-            PLCHLDR = ""
             turtle.speed(10) # begin the turtle... mess
-            for PLCHLDR in range(20):
+            for i in range(20):
                 turtle.forward(50)
                 turtle.left(100)
 
             turtle.penup()
             turtle.forward(100)
             turtle.pendown()
-            for PLCHLDR in range(20):
+            for i in range(20):
                 turtle.forward(50)
                 turtle.left(100)
 
             turtle.penup()
             turtle.right(150)
             turtle.pendown()
-            for PLCHLDR in range(20):
+            for i in range(20):
                 turtle.forward(50)
                 turtle.left(100)
 
             turtle.penup() # AAAAAAAAAAAAAAAAAAAAAAA
             turtle.right(150) # AAAAAAAAAAAAAAAAAAAAAAA
             turtle.pendown() # AAAAAAAAAAAAAAAAAAAAAAA
-            for PLCHLDR in range(20): # AAAAAAAAAAAAAAAAAAAAAAA
+            for i in range(20): # AAAAAAAAAAAAAAAAAAAAAAA
                 turtle.forward(50) # AAAAAAAAAAAAAAAAAAAAAAA
                 turtle.left(100) # AAAAAAAAAAAAAAAAAAAAAAA
 except Exception: # this catches any exceptions thrown
