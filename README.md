@@ -1,3 +1,6 @@
+# THIS IS VERY OLD
+This project is extremely old and anything you see in this repository is not a good representation of current skill, this was one of my first ever python projects so don't expect anything amazing. To get a better idea of where im at right now, check out my newest repositories.
+
 # License
 Please read the Apache 2.0 License in the license text file.
 
